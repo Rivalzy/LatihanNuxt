@@ -46,6 +46,7 @@
           @click="isCreating = !isCreating"
           >Add Task</a
         >
+        <!-- Form and Event Handler -->
         <form v-else v-on:submit.prevent="handleSubmit">
           <div class="add-card">
             <div class="card mb-2">
