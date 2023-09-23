@@ -26,6 +26,7 @@
       <div class="description-task small text-muted">
         {{ task.description }}
       </div>
+      <input class="form-control form-control-sm" type="date" />
     </div>
   </div>
 </template>

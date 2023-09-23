@@ -5,6 +5,10 @@
 </template>
 <script>
 export default {
+  layout(context) {
+    return 'custom'
+  },
+  
   name: 'HelloWorld',
   data() {
     return {

@@ -7,6 +7,9 @@
 
 <script>
 export default {
+  layout(context) {
+    return 'custom'
+  },
   data() {
     return { msg: '' }
   },
@@ -30,6 +33,6 @@ export default {
 
   beforeUpdate() {
     this.msg = 'Hello World again'
-  }
+  },
 }
 </script>
